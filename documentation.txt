@@ -1,0 +1,36 @@
+Prayers Time Schedule
+This ASP.NET MVC project keeps record of prayer times
+
+How to use:
+
+    Add Mosque Record: To save a record, you need to fill these parameters:
+
+		Mosque Name
+		Area - (You can add new area).
+		Prayer Times(Fajer, Zohar, Aser, Maghrib and Esha)- You can also pass NULL value if you haven't decided to provide the prayer time. 
+
+	View Record: First, you have to select an area or you can select all mosque, It will show you the details of respected area or the detaills of all the mosques.
+		The details will be in Mosque Name, Area and Prayer Times(Fajer, Zohar, Aser, Maghrib and Esha) 
+	
+	Edit/Delete: It shows the details of all the mosques with its Name and area. At the end of each record you will see an Edit and Delete reference. If you select Edit, it will redirect to Edit view and if you select Delete, it wil redirect to Delete view.
+   
+    Edit Book page: A similar form like Add Mosque view. This page update the record on the basis of id that I have used as a primary key but you can also change it to on by name by just send a string of name to the Edit view.
+    
+	Delete Book:  There is no such need to implement the Delete view. In Edit/Delete page, If you select Delete then, it will just delete that record on the basis of id.
+	
+Output:
+	
+	If you want to see the output of records in your database, just run the view Record page.
+
+Dependencies:
+	
+	C#
+	AJAX
+	HTML
+	CSS
+
+Software requirements:
+	
+	A Web Browser
+	Microsoft Windows 8.1 or higher.
+    Microsoft Visual Studio 2012 or higher	
